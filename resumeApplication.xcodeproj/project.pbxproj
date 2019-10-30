@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445219FA2369E18E00F06EA6 /* CVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445219F92369E18E00F06EA6 /* CVViewController.swift */; };
+		445219FC2369E31B00F06EA6 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445219FB2369E31B00F06EA6 /* ExperienceViewController.swift */; };
 		445326EC236738790024465A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445326EB236738790024465A /* AppDelegate.swift */; };
 		445326EE236738790024465A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445326ED236738790024465A /* SceneDelegate.swift */; };
-		445326F0236738790024465A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445326EF236738790024465A /* ViewController.swift */; };
 		445326F3236738790024465A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445326F1236738790024465A /* Main.storyboard */; };
 		445326F6236738790024465A /* resumeApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445326F4236738790024465A /* resumeApplication.xcdatamodeld */; };
 		445326F82367387A0024465A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445326F72367387A0024465A /* Assets.xcassets */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		445219F92369E18E00F06EA6 /* CVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVViewController.swift; sourceTree = "<group>"; };
+		445219FB2369E31B00F06EA6 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 		445326E8236738790024465A /* resumeApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resumeApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445326EB236738790024465A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		445326ED236738790024465A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		445326EF236738790024465A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		445326F2236738790024465A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		445326F5236738790024465A /* resumeApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = resumeApplication.xcdatamodel; sourceTree = "<group>"; };
 		445326F72367387A0024465A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,12 +105,13 @@
 			children = (
 				445326EB236738790024465A /* AppDelegate.swift */,
 				445326ED236738790024465A /* SceneDelegate.swift */,
-				445326EF236738790024465A /* ViewController.swift */,
 				445326F1236738790024465A /* Main.storyboard */,
 				445326F72367387A0024465A /* Assets.xcassets */,
 				445326F92367387A0024465A /* LaunchScreen.storyboard */,
 				445326FC2367387A0024465A /* Info.plist */,
 				445326F4236738790024465A /* resumeApplication.xcdatamodeld */,
+				445219F92369E18E00F06EA6 /* CVViewController.swift */,
+				445219FB2369E31B00F06EA6 /* ExperienceViewController.swift */,
 			);
 			path = resumeApplication;
 			sourceTree = "<group>";
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445326F0236738790024465A /* ViewController.swift in Sources */,
+				445219FA2369E18E00F06EA6 /* CVViewController.swift in Sources */,
 				445326EC236738790024465A /* AppDelegate.swift in Sources */,
+				445219FC2369E31B00F06EA6 /* ExperienceViewController.swift in Sources */,
 				445326EE236738790024465A /* SceneDelegate.swift in Sources */,
 				445326F6236738790024465A /* resumeApplication.xcdatamodeld in Sources */,
 			);
