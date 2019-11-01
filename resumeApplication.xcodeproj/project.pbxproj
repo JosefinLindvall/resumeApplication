@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443A5823236B32DB005ED13D /* ExperienceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443A5822236B32DB005ED13D /* ExperienceTableViewController.swift */; };
+		444820AB236C1982009F9862 /* Work1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444820AA236C1982009F9862 /* Work1TableViewCell.swift */; };
+		444820AD236C337F009F9862 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444820AC236C337F009F9862 /* Work.swift */; };
+		444820AF236C3F6D009F9862 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444820AE236C3F6D009F9862 /* Experience.swift */; };
+		444820B1236C3FAD009F9862 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444820B0236C3FAD009F9862 /* Education.swift */; };
 		445219FA2369E18E00F06EA6 /* CVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445219F92369E18E00F06EA6 /* CVViewController.swift */; };
-		445219FC2369E31B00F06EA6 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445219FB2369E31B00F06EA6 /* ExperienceViewController.swift */; };
 		445326EC236738790024465A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445326EB236738790024465A /* AppDelegate.swift */; };
 		445326EE236738790024465A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445326ED236738790024465A /* SceneDelegate.swift */; };
 		445326F3236738790024465A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445326F1236738790024465A /* Main.storyboard */; };
@@ -37,8 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		443A5822236B32DB005ED13D /* ExperienceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewController.swift; sourceTree = "<group>"; };
+		444820AA236C1982009F9862 /* Work1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work1TableViewCell.swift; sourceTree = "<group>"; };
+		444820AC236C337F009F9862 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		444820AE236C3F6D009F9862 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		444820B0236C3FAD009F9862 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
 		445219F92369E18E00F06EA6 /* CVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVViewController.swift; sourceTree = "<group>"; };
-		445219FB2369E31B00F06EA6 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 		445326E8236738790024465A /* resumeApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resumeApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445326EB236738790024465A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		445326ED236738790024465A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +119,11 @@
 				445326FC2367387A0024465A /* Info.plist */,
 				445326F4236738790024465A /* resumeApplication.xcdatamodeld */,
 				445219F92369E18E00F06EA6 /* CVViewController.swift */,
-				445219FB2369E31B00F06EA6 /* ExperienceViewController.swift */,
+				443A5822236B32DB005ED13D /* ExperienceTableViewController.swift */,
+				444820AA236C1982009F9862 /* Work1TableViewCell.swift */,
+				444820AC236C337F009F9862 /* Work.swift */,
+				444820AE236C3F6D009F9862 /* Experience.swift */,
+				444820B0236C3FAD009F9862 /* Education.swift */,
 			);
 			path = resumeApplication;
 			sourceTree = "<group>";
@@ -266,10 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				445219FA2369E18E00F06EA6 /* CVViewController.swift in Sources */,
+				444820AD236C337F009F9862 /* Work.swift in Sources */,
 				445326EC236738790024465A /* AppDelegate.swift in Sources */,
-				445219FC2369E31B00F06EA6 /* ExperienceViewController.swift in Sources */,
+				444820AF236C3F6D009F9862 /* Experience.swift in Sources */,
+				444820AB236C1982009F9862 /* Work1TableViewCell.swift in Sources */,
 				445326EE236738790024465A /* SceneDelegate.swift in Sources */,
 				445326F6236738790024465A /* resumeApplication.xcdatamodeld in Sources */,
+				443A5823236B32DB005ED13D /* ExperienceTableViewController.swift in Sources */,
+				444820B1236C3FAD009F9862 /* Education.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
